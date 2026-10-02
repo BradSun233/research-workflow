@@ -16,7 +16,7 @@ A reusable research workflow skill for Codex: organize papers, baseline reproduc
 
 ```bash
 mkdir -p ~/.agents/skills
-git clone https://github.com/skJack/research-workflow.git ~/.agents/skills/research-workflow
+git clone https://github.com/BradSun233/research-workflow.git ~/.agents/skills/research-workflow
 ```
 
 安装后的入口是 `~/.agents/skills/research-workflow/SKILL.md`。`~` 表示当前用户的主目录，例如 macOS 上的 `/Users/你的用户名`；以 `.` 开头的目录在 Finder 中默认隐藏，可用 `Command + Shift + .` 显示。
@@ -28,7 +28,7 @@ git clone https://github.com/skJack/research-workflow.git ~/.agents/skills/resea
 ```bash
 cd /你的路径/IP
 mkdir -p .agents/skills
-git clone https://github.com/skJack/research-workflow.git .agents/skills/research-workflow
+git clone https://github.com/BradSun233/research-workflow.git .agents/skills/research-workflow
 ```
 
 将示例路径替换为真实项目路径。安装后结构如下：
@@ -65,7 +65,7 @@ Codex 会自动检测技能变化；未出现时重启 Codex。CLI / IDE 扩展�
 git -C ~/.agents/skills/research-workflow pull --ff-only
 ```
 
-项目安装时替换为项目中的技能路径；链接安装时在源码仓库更新。下载 ZIP 的版本需手动替换文件。若发布到你自己的 GitHub 仓库，请同步替换本文安装示例中的 `skJack/research-workflow`。
+项目安装时替换为项目中的技能路径；链接安装时在源码仓库更新。下载 ZIP 的版本需手动替换文件。仓库地址：[BradSun233/research-workflow](https://github.com/BradSun233/research-workflow)。
 
 ## 使用
 
