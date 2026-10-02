@@ -1,0 +1,4 @@
+interface:
+  display_name: "Research Workflow"
+  short_description: "组织科研课题的文献、baseline 复现、实验结果与上下文交接记录"
+  default_prompt: "使用 $research-workflow，按当前课题进度完成所需工作并更新相关记录。"
